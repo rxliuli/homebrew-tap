@@ -1,6 +1,6 @@
 cask "imp-rec" do
-  version "0.0.22"
-  sha256 "7e9bc1ad8860c60f23ed076069ed3948d2ec79f39b6e9a86fa74bb424004d178"
+  version "0.0.24"
+  sha256 "c8328eed3f6a63b6d8be370e3282f3f8b8e14c0c76b2ff7669d55ce9b7a59306"
 
   url "https://github.com/rxliuli/imp-rec/releases/download/v#{version}/ImpRec-macos.dmg"
   name "ImpRec"
