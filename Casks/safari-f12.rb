@@ -1,6 +1,6 @@
 cask "safari-f12" do
-  version "0.1.1"
-  sha256 "e5f109cd83fd770dff803295c26fb61ec5eedfcb78a878c596fab28455aa4d83"
+  version "0.1.2"
+  sha256 "15957bf7fcfc304eba30ad304133f434576515dd0e5ced190300aaa33eae4405"
 
   url "https://github.com/rxliuli/safari-f12/releases/download/v#{version}/SafariF12-macos.dmg"
   name "SafariF12"
