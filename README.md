@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for [rxliuli](https://github.com/rxliuli)'s apps.
+Homebrew tap for [rxliuli](https://rxliuli.com/)'s apps.
 
 ## Usage
 
