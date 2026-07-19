@@ -1,6 +1,6 @@
 cask "window-resizer" do
-  version "0.3.0"
-  sha256 "80d2c6f9c24a17623c21522c1992979e2b3fad08e95963790b666296f81ea406"
+  version "0.3.1"
+  sha256 "ee3b0c1d00b41f1a4488ba40b92110740ffe9ff8820a6b9dc1514e4ae7175e5e"
 
   url "https://github.com/rxliuli/window-resizer/releases/download/v#{version}/WindowResizer-macos.dmg"
   name "WindowResizer"
