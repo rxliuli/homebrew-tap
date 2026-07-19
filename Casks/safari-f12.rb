@@ -1,6 +1,6 @@
 cask "safari-f12" do
   version "0.1.0"
-  sha256 "PLACEHOLDER_UPDATED_BY_CI"
+  sha256 "445726c18eb6c23dd016c8fbe514da7462162b21f3ad47d6e9a43254479360d6"
 
   url "https://github.com/rxliuli/safari-f12/releases/download/v#{version}/SafariF12-macos.dmg"
   name "SafariF12"
