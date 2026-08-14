@@ -1,4 +1,4 @@
-cask "appdowngrader" do
+cask "app-downgrader" do
   version "0.0.2"
   sha256 "e169fa8055914bbe63d10aee87d815e8e0ee6b7a698210c0354a7066f10c4a84"
 
