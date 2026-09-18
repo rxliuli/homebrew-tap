@@ -17,8 +17,9 @@ cask "linkpure" do
   app "LinkPure.app"
 
   caveats <<~EOS
-    这个 cask 装的是同一款 app 的直发版本，bundle id 与 Mac App Store 版相同
-    （com.rxliuli.linkpure2）。两份同时装会互相覆盖，装之前请先卸掉另一份。
+    This cask installs the direct-distribution build of an app whose bundle id is
+    identical to the Mac App Store version (com.rxliuli.linkpure2). Installing both
+    will overwrite each other, so uninstall the other one first.
   EOS
 
   zap trash: [
