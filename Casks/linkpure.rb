@@ -1,6 +1,6 @@
 cask "linkpure" do
-  version "0.6.2"
-  sha256 "7c2ec392571c90acb278ab307600f62a3ca61df826b6d444f21c6df841d6294e"
+  version "0.6.3"
+  sha256 "42aff7f8e33f80d8816fda4eba6ff4e6b1b0857d2a2a1cc6cc1331d959a097cf"
 
   url "https://github.com/rxliuli/LinkPure/releases/download/v#{version}/LinkPure-macos.dmg"
   name "LinkPure"
