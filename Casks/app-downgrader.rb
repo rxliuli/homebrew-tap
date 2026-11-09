@@ -1,6 +1,6 @@
 cask "app-downgrader" do
-  version "0.0.10"
-  sha256 "c64945fa99c1404f7d8b04484158160e2fc6211eade6709599065c149726cbf6"
+  version "0.0.11"
+  sha256 "a7340052aea920e5ab0c5b5d3e9bcc65d2ebd0906e1a5ac4a870727cd27c6bdf"
 
   url "https://github.com/rxliuli/AppDowngrader/releases/download/v#{version}/AppDowngrader-macos.dmg"
   name "AppDowngrader"
