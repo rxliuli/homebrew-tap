@@ -16,13 +16,8 @@ cask "sim-drop" do
 
   app "SimDrop.app"
 
-  # Registers / restarts the background helper after every install and upgrade, without
-  # showing UI. (Removing the helper's launchd job must not happen on a plain uninstall:
-  # `brew upgrade` runs the old version's uninstall first, which would leave it dead.)
-  postflight_steps do
-    run "/usr/bin/open", args: ["-g", "-j", "{{appdir}}/SimDrop.app", "--args", "-setupOnly", "YES"]
-  end
-
+  # Removing the helper's launchd job must not happen on a plain uninstall: `brew upgrade`
+  # runs the old version's uninstall first, which would leave the helper dead.
   zap launchctl: "com.rxliuli.sim-drop.helper",
       trash:     [
         "~/Library/Application Scripts/com.rxliuli.sim-drop.FileProvider",
