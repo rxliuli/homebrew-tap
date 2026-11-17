@@ -17,3 +17,4 @@ brew install --cask rxliuli/tap/window-resizer
 | [imp-rec](https://github.com/rxliuli/imp-rec) | Lightweight, open-source screen recorder |
 | [safari-f12](https://github.com/rxliuli/safari-f12) | Press F12 in Safari to toggle Web Inspector, like Chrome |
 | [linkpure](https://github.com/rxliuli/LinkPure) | Rewrites clipboard URLs using user-defined rules |
+| [sim-drop](https://github.com/rxliuli/sim-drop) | Shows running iOS simulators in the Finder sidebar for drag-and-drop transfer |
