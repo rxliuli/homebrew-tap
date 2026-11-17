@@ -24,4 +24,10 @@ cask "sim-drop" do
         "~/Library/Containers/com.rxliuli.sim-drop.FileProvider",
         "~/Library/Group Containers/N2X78TUUFG.com.rxliuli.sim-drop",
       ]
+
+  caveats <<~EOS
+    After installing or upgrading, open SimDrop once. Replacing the app makes macOS
+    drop its Finder extension and stop its background helper until the new version
+    has been launched.
+  EOS
 end
