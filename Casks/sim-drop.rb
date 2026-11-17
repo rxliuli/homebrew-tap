@@ -1,6 +1,6 @@
 cask "sim-drop" do
-  version "0.0.3"
-  sha256 "b2adc556d86c32ba2c625cba140d8160c297ea56e86269c5138edd8825ef0896"
+  version "0.0.4"
+  sha256 "f8b5f518acd90d661298b123a3155a68cfa08436148d2db6eaf2e6b3d1e127b0"
 
   url "https://github.com/rxliuli/sim-drop/releases/download/v#{version}/SimDrop-macos.dmg"
   name "SimDrop"
